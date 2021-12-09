@@ -1,0 +1,125 @@
+#newGameDiv{
+	width:100%;
+	height:500px;
+}
+#start{
+	position: relative;
+	top:20px;
+	left:42%;
+	width:11%;
+	height: 30px;
+	color:white;
+	text-transform: uppercase;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-color: #347b98;
+	box-shadow: 0px 0px 35px 2px #000000;
+	border-radius: 24px;
+	text-align: center;
+	padding-top: 7px;
+}
+#levelQ{
+	position: absolute;
+	top:18%;
+	width:70%;
+	/*background-color: orange;/*
+	/*left: 33%;*/
+	list-style-type: none;
+}
+#levelQ li{
+	background-color: #347b98;
+	box-shadow: 0px 0px 35px 2px #000000;
+	display: inline;
+	margin: 4% 0 0 22%;
+	color:white;
+	padding:7px;
+	border-radius: 12%;
+}
+#playerQ{
+	position: relative;
+	/*left: 18%;*/
+	width:70%;
+	/*background-color: yellow;*/
+	margin-top: 15%;
+	list-style-type: none;
+}
+#playerQ li{
+	display: inline;
+	margin: 4% 0 0 15%;
+	border:solid black 2px;
+	color:white;
+	border-radius: 12%;
+}
+#confirmPlayers{
+	background-color: blue;
+}
+#player1Display{
+	position: absolute;
+	top: 25%;
+	left: 30%;
+	color:#ffffff;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.3em;
+	text-transform: uppercase;
+}
+#player2Display{
+	position: absolute;
+	top: 25%;
+	right: 30%;
+	color:#ffffff;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.3em;
+	text-transform: uppercase;
+}
+#vs{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.3em;
+	text-transform: uppercase;	
+}
+.current{
+	background-color: #00ffff;
+}
+.onDeck{
+	background-color: #ff9900;
+}
+#selectedFirst{
+	position: absolute;
+	top:40%;
+	left:45%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.3em;
+	text-transform: uppercase;	
+}
+#questionDiv{
+	position: absolute;
+	top:20%;
+	left:18%;
+	width:70%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.3em;
+	text-transform: uppercase;
+}
+#answerOptions li{
+	list-style: none;
+	padding:8px;
+	margin-top:12px;
+	width:35%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #ffffff;
+	background-color: #347b98;
+	box-shadow: 0px 2px 15px 2px #000000;
+	border-radius: 24px;
+	text-align: center;
+}
+#showTurn{
+	position: absolute;
+	top:10%;
+	left: 35%;
+	color:blue;
+	font-size: 18px;
+}
+
+#p1Score, #p2Score {
+	position:absolute;
+	color:grey;
+	font-size: 1.5em;
+}
